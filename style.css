@@ -1,0 +1,117 @@
+.header{
+    background-color: cornflowerblue;
+    padding: 10px;
+    text-align: center;
+    position: absolute;
+    right: 0%;
+    left: 0%;
+    top: 2px;
+}
+body{
+    background-color: aquamarine;
+}
+.div1{
+    border: 3px solid black;
+    position: absolute;
+    top:120px;
+    left: 90px;
+    padding:10px 300px 90px 10px ;
+    transition: transform 5s;
+}
+.img1{
+    transition: transform 5s;
+}
+.div2{
+    border: 3px solid black ;
+    position: absolute;
+    top: 120px;
+    left: 950px;
+    padding: 10px 30px 60px 10px; 
+    transition: transform 5s;
+}
+
+.section1{
+ transition:transform 2s; 
+}
+.section1:hover{
+    transition-duration: 2s;
+    transition-delay: 2s;
+    transition-timing-function: ease;
+   
+    .div1{
+    transition-delay: 2s;
+    transform: rotateZ(8deg );
+    transition-duration: 3s;
+    transition-timing-function: ease;
+    background-color: burlywood;
+    
+    }
+    .img1{
+        transition-duration: 2s;
+        border-radius: 50%;
+        position: relative;
+        animation-name: animation;
+        transition-delay: 2s;
+        animation-duration: 15s;
+        transition-timing-function: ease;
+        transition: transform 2s;
+        
+    }
+}
+@keyframes animation{
+    0% {left:0px; top: 0px;}
+    25% {left:120px; top:0px;}
+   
+    
+}
+.div3{
+    border: 3px solid black ;
+    position:absolute;
+    top: 460px;
+    left: 50px;
+    padding: 10px 350px 10px 10px; 
+
+}
+.div4{
+    border: 3px solid black ;
+    position: absolute;
+    top: 460px;
+    left: 650px;
+    padding: 10px 350px 10px 10px; 
+ 
+}
+.footer{
+    background-color: cadetblue;
+    text-align: center;
+    position: absolute;
+    bottom: 30px;
+    top:550px;
+    left: 0px;
+    right: 0px;
+    padding: 50px 0px 50px 0px;
+    color: white;
+    z-index: 2;
+
+}
+.div2:hover{
+ background-color: darkcyan;
+ transition-duration: 3s;
+ transform: scale(1.5,1.5);
+ padding: 0px 50px 0px 0px;
+ transition-timing-function: ease-in;
+
+}
+
+.dvi3{
+padding: 0px 0px 0px 10px;
+}
+.div3:hover{
+    transform: skew(20deg,10deg);
+}
+.div4:hover{
+    color: white;
+    translate: 50px 10px;
+    opacity: 1.5;
+
+}
+
